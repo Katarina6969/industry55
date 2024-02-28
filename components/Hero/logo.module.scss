@@ -1,0 +1,94 @@
+.logo {
+    .letter path {
+        fill: rgb(255, 187, 0);
+        opacity: 0;
+        animation: letterFadeIn 1s ease-in forwards;
+        animation-delay: 3s;
+    }
+
+
+    .number {
+        fill: rgb(0, 162, 255);
+        opacity: 0;
+    }
+
+    .lines {
+        stroke-width: 1.2px;
+        stroke: white;
+        fill: transparent;
+        stroke-dasharray: 0 400;
+        animation: dashanim 4s ease-in forwards;
+        animation-delay: 2s;
+
+        .dashfull {
+            animation: dashanim2 2s ease-in forwards;
+            animation-delay: 2s;
+        }
+
+        .dashpartial {
+            stroke-dasharray: 10px;
+            stroke: white;
+            opacity: 0;
+            animation: dashanim3 2s ease-in forwards;
+            animation-delay: 2s;
+        }
+    }
+}
+
+@keyframes letterFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dashanim {
+    0% {
+        stroke-dasharray: 0 400;
+    }
+
+    25% {
+        stroke-dasharray: 400 400;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes dashanim2 {
+    0% {
+        stroke-dasharray: 0 400;
+    }
+
+    50% {
+        opacity: 1;
+        stroke-dasharray: 400 400;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes dashanim3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
