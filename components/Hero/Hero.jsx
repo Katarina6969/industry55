@@ -7,7 +7,7 @@ const rufina = Rufina({ subsets: ["latin"], weight: ["400", "700"] })
 
 function Hero(props) {
     return (
-        <section className="relative h-screen flex flex-col items-center justify-center text-center text-white ">
+        <section className="relative h-screen flex flex-col items-center justify-center text-center text-white dark ">
             <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                 <Image fill src={building} alt="luxury appartment image" style={{ objectFit: "cover" }}></Image>
             </div>
