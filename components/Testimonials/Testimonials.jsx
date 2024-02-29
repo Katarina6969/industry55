@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Olivia from '@/public/olivia.webp'
+import Olivia from '@/public/Olivia.webp'
 
 export function Testimonials(props) {
     return (
