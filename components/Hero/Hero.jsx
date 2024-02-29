@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Logo from "./Logo"
 import building from '/public/building.png'
-import { Noto_Serif } from "next/font/google"
-const notoserif = Noto_Serif({ subsets: ["latin"], weight: ["100", "200", "300", "400"] })
+import { Rufina } from "next/font/google"
+const rufina = Rufina({ subsets: ["latin"], weight: ["400", "700"] })
 
 
 function Hero(props) {
@@ -25,9 +25,13 @@ function Hero(props) {
                     >
                         <Logo></Logo>
                     </h1>
-                    <p className={`${notoserif.className} max-w-md mx-auto mt-3 text-base text-gray-200 sm:text-lg md:mt-5 md:text-xl md:max-w-5xl`}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate dignissim augue, Nullam vulputate dignissim augue.
-                    </p>
+                    <div><h2 className={`${rufina.className} max-w-md mx-auto mt-3  text-gray-200 text-4xl md:mt-5 md:max-w-5xl mb-5`}>
+                        Dejte své nemovitosti čerstvý nádech</h2>
+                        <p className={`${rufina.className} max-w-md  mt-3 text-base text-gray-200 sm:text-lg md:mt-5 md:text-xl md:max-w-5xl`}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate dignissim augue, Nullam vulputate dignissim augue.
+                        </p>
+                    </div>
+
 
                 </div>
             </div>

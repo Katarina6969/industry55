@@ -1,7 +1,7 @@
-import { Fira_Sans } from "next/font/google"
+import { Open_Sans } from "next/font/google"
 import "./globals.css"
 import NavBar from "@/components/NavBar"
-const firasans = Fira_Sans({ subsets: ["latin"], weight: ["100", "200", "300", "400"] })
+const opensans = Open_Sans({ subsets: ["latin"], weight: ["variable"] })
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={firasans.className}>
+      <body className={opensans.className}>
         <NavBar />
         {children}</body>
     </html>
