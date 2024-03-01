@@ -7,7 +7,7 @@ export function Map({ dark }) {
     const MapPlace = <ImageElement />
     return (
         <SectionWrapper dark={dark} className=" pb-36">
-            <TextImageBlock title="Inženýrská činnost" content={MapPlace} alt="building" distribution={[6, 6]} imageFirst>
+            <TextImageBlock title="Kontakt" content={MapPlace} alt="Map" distribution={[6, 6]} imageFirst>
                 <h3> Vinohradská 40, Vinohrady, Česko</h3>
                 <p>Datová schránka : inebwtd</p>
                 <p className="pb-28">Email : Industry55.th@gmail.com</p>
@@ -60,7 +60,7 @@ function ImageElement() {
                     </svg>
                 </div>
 
-                <Image alt="mapa" src={mapImage} className="rounded-sm md:rounded-md lg:rounded-lg w-full" style={{ objectFit: "cover", aspectRatio: 1 }} />
+                <Image src={mapImage} alt="Industry 55 map" className="rounded-sm md:rounded-md lg:rounded-lg w-full" style={{ objectFit: "cover", aspectRatio: 1 }} />
             </div >
         </PinMap>
 

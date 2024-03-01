@@ -28,7 +28,7 @@ function Hero(props) {
                     <div><h2 className={`${rufina.className} max-w-md mx-auto mt-3  text-gray-200 text-4xl md:mt-5 md:max-w-5xl mb-5`}>
                         Dejte své nemovitosti čerstvý nádech</h2>
                         <p className={`${rufina.className} max-w-md  mt-3 text-base text-gray-200 sm:text-lg md:mt-5 md:text-xl md:max-w-5xl`}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate dignissim augue, Nullam vulputate dignissim augue.
+                            Společnost zabívající se rekontrukcemi nemovitostí po celé Praze s více jak 20-ti letou zkušeností.
                         </p>
                     </div>
 

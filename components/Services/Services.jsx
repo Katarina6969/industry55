@@ -2,20 +2,42 @@ import ServiceCards from "./ServiceCards"
 import SectionWrapper from "@/components/SectionWrapper"
 import { LampContainer } from "../Lamp/Lamp"
 import H2 from "@/components/H2"
+import Energy from "@/public/Energy.jpg"
+import GreenDesign from '@/public/GreenDesign.jpg'
+import Repairs from '@/public/Repairs.jpg'
 export function Services(props) {
+    const cards = [
+        {
+            title: "Energeticky úsporné řešení",
+            text: "a",
+            image: Energy,
+            alt: "Energeticky úsporné řešenít"
+        },
+        {
+            title: "Designově zapadající do prostředí",
+            text: "",
+            image: GreenDesign,
+            alt: "Designově zapadající do prostřed"
+        },
+        {
+            title: "Opravy a výměny interiéru",
+            text: "",
+            image: Repairs,
+            alt: "image alt"
+        },
+    ]
+
+    const cardsList = cards.map(({ text, ...props }) => <ServiceCards key={props.title} {...props} />)
     return (
 
-        <SectionWrapper dark className=" pt-0 pb-0" style={{ maxHeight: "40rem", overflow: "clip" }}>
+        <SectionWrapper dark className=" pt-0 pb-0" style={{ maxHeight: "40rem", overflow: "clip" }} id="services">
             <div className="">
                 <LampContainer className="w-full min-content" color="slate">
                     <div className="mx-auto w-full max-w-[96rem] px-4 sm:px-6 lg:px-8 mt-96 xl:mt-0 md:block">
                         <H2 className="full-w text-center  " style={{ textShadow: "5px 3px 6px #000000" }}>S čím Vám můžeme pomoci</H2>
 
                         <div className="flex flex-col  gap-10 items-center xl:flex-row w-full xl:justify-around mt-10">
-
-                            <ServiceCards></ServiceCards>
-                            <ServiceCards></ServiceCards>
-                            <ServiceCards></ServiceCards>
+                            {cardsList}
                         </div>
 
 

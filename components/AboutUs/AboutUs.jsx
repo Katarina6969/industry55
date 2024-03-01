@@ -1,11 +1,11 @@
 
 import SectionWrapper from '../SectionWrapper'
-import building from '@/public/topBuilding.webp'
+import building from '@/public/Appartment.jpg'
 
 import TextImageBlock from '@/components/TextImageBlock'
 export function AboutUs({ dark }) {
     return (
-        <SectionWrapper dark={dark}>
+        <SectionWrapper dark={dark} id="about">
             <TextImageBlock title="O nás" src={building} alt="building" >
                 <p>
                     Máme zkušeností získané za posledních více než 20 let na stavebních,

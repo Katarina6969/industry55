@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 import SectionWrapper from '../SectionWrapper'
-import building from '@/public/topBuilding.webp'
+import building from '@/public/Design.jpg'
 
 import TextImageBlock from '@/components/TextImageBlock'
 export function Engineer({ dark }) {
     return (
-        <SectionWrapper dark={dark}>
+        <SectionWrapper dark={dark} id="engineer">
             <TextImageBlock title="Inženýrská činnost" src={building} alt="building" imageFirst>
                 <p>Příprava projektů pro stavební povolení, spojená administrativní složka.</p>
                 <p>Návaznost na architektonickou studii, fáze projektu a vyřizování povolení a formalit potřebných ke stavbě.</p>

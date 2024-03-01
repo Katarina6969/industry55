@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 import MenuLogo from './MenuLogo'
 function NavBar(props) {
-    const menus = [{ text: "About Us", link: "/about" }, { text: "Our Services", link: "/services" }, { text: "Pricing", link: "/pricing" }, { text: "Contact Us", link: "/contact" }]
-    const menuList = menus.map(({ text, link }) => <Link key={link} href={`#${link}`}>{text}</Link>)
+    const menus = [{ text: "O nás", link: "#about" }, { text: "Inženýrská činnost", link: "#engineer" }, { text: "služby", link: "#services" }, { text: "Kontakt", link: "#contact" }]
+    const menuList = menus.map(({ text, link }) => <Link key={link} href={`${link}`} >{text}</Link>)
     return (
         <nav className="absolute top-0 w-full bg-transparent border-gray-200 z-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
