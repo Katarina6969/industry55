@@ -24,6 +24,7 @@ module.exports = {
     'bg-slate-500', 'bg-slate-400',
     'bg-lime-500', 'bg-lime-400',
     'bg-cyan-500', 'bg-cyan-400',
+    'col-span-1', 'col-span-2', 'col-span-3', 'col-span-4', 'col-span-5', 'col-span-6', 'col-span-7', 'col-span-8', 'col-span-9',
 
 
   ],
