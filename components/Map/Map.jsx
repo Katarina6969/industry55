@@ -1,7 +1,7 @@
 import SectionWrapper from "../SectionWrapper"
 import TextImageBlock from "@/components/TextImageBlock"
-import Image from 'Next/image'
-import mapImage from '@/public/map.webp'
+import Image from 'next/image'
+import mapImage from '@/public/Map.webp'
 import { PinMap } from "./PinMap"
 export function Map({ dark }) {
     const MapPlace = <ImageElement />
