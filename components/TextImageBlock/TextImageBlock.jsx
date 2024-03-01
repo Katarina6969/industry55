@@ -1,7 +1,7 @@
 import H2 from "@/components/H2"
 import Image from "next/image"
 
-function TextImageBlock({ title, src, alt, children, imageFirst, content, distribution = [6, 6] }) {
+function TextImageBlock({ title, src, alt, children, imageFirst, content, distribution = [6, 6], className }) {
     const contentComponent = content ?? <Image alt={alt} src={src} className="rounded-sm md:rounded-md lg:rounded-lg" />
     return (
         <>
