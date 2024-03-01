@@ -56,14 +56,14 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://industry55.vercel.app/" />
         <meta property="og:title" content="Industry 55" />
         <meta property="og:description" content="Dejte své nemovitosti čerstvý nádech" />
-        <meta property="og:image" content="https://metatags.io/Industry55_me.webp" />
+        <meta property="og:image" content="https://industry55.vercel.app/Industry55_me.webp" />
 
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://industry55.vercel.app/" />
         <meta property="twitter:title" content="Industry 55" />
         <meta property="twitter:description" content="Dejte své nemovitosti čerstvý nádech" />
-        <meta property="twitter:image" content="https://metatags.io/Industry55_x.webp" />
+        <meta property="twitter:image" content="https://industry55.vercel.app/Industry55_x.webp" />
       </head>
       <body className={`${opensans.className} scroll-smooth`}>
         <NavBar />
