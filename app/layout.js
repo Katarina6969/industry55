@@ -7,24 +7,41 @@ const opensans = Open_Sans({ subsets: ["latin"], weight: ["variable"] })
 export const metadata = {
   title: "Industry 55",
   description: "Dejte své nemovitosti čerstvý nádech",
+  url: "https://www.industry55.cz",
+  images: [
+    {
+      url: "/public/Industry55_me.webp",
+      width: 1200,
+      height: 630,
+
+    },
+    {
+      url: "/public/Industry55_x.webp",
+      width: 1200,
+      height: 600,
+
+    }
+  ],
+  locale: "cs-CZ",
   icons: [
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicon/favicon-32x32.png',
+      url: '/favicon-32x32.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicon/favicon-16x16.png',
+      url: '/favicon-16x16.png',
     },
     {
       rel: 'apple-touch-icon',
       sizes: '180x180',
-      url: '/favicon/apple-touch-icon.png',
+      url: '/apple-touch-icon.png',
     },
+
   ],
 }
 
