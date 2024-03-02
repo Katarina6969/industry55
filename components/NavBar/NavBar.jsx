@@ -12,7 +12,7 @@ function NavBar(props) {
                 setMenuOpen(false)
         }
         window.addEventListener('click', closeMenu)
-
+        return window.removeEventListener('click', closeMenu)
     }, [])
 
     return (
