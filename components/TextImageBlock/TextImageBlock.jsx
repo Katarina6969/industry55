@@ -6,7 +6,7 @@ function TextImageBlock({ title, src, alt, children, imageFirst, content, distri
     return (
         <>
             <div className={` grid grid-cols-12 mx-auto w-full max-w-[96rem] px-4 sm:px-6 lg:px-8   mb-2 `}>
-                <div className={`col-span-6  mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl  ${imageFirst && "col-start-7"} `}>
+                <div className={` col-span-12 lg:col-span-6  mx-auto     lg:mx-0 lg:max-w-3xl  ${imageFirst && "lg:col-start-7"} `}>
                     <H2 style={{ whiteSpace: "pre-line" }}>{title}</H2>
 
 
