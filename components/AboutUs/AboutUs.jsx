@@ -8,7 +8,7 @@ export function AboutUs({ dark }) {
         <SectionWrapper dark={dark} id="about">
             <TextImageBlock title="O nás" src={building} alt="building" >
                 <p>
-                    Máme zkušeností získané za posledních více než 20 let na stavebních,
+                    Máme zkušenosti získané za posledních více než 20 let na stavebních,
                     rekonstrukčních i designových realizacích .
                 </p>
                 <p>Půsosobnost po celé Praze.</p>
