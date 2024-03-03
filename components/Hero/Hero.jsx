@@ -1,13 +1,13 @@
 import Image from "next/image"
 import Logo from "./Logo"
-import building from '/public/building.png'
+import building from '/public/building.webp'
 import { Rufina } from "next/font/google"
 const rufina = Rufina({ subsets: ["latin"], weight: ["400", "700"] })
 
 
 function Hero(props) {
     return (
-        <section className="relative h-screen flex flex-col items-center justify-center text-center text-white dark ">
+        <section className="relative bg-black h-screen flex flex-col items-center justify-center text-center text-white dark ">
             <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                 <Image fill src={building} alt="luxury appartment image" style={{ objectFit: "cover" }}></Image>
             </div>
