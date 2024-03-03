@@ -9,9 +9,14 @@ export function Map({ dark }) {
         <SectionWrapper dark={dark} className=" pb-36">
             <TextImageBlock title="Kontakt" content={MapPlace} alt="Map" distribution={[6, 6]} imageFirst>
                 <h3> Vinohradská 40, Vinohrady, Česko</h3>
+                <hr />
+                <h3> Vinohradská 40, Vinohrady, Česko</h3>
+                <hr />
                 <p>Datová schránka : inebwtd</p>
+                <hr />
                 <p className="pb-28">Email : Industry55.th@gmail.com</p>
-
+                
+                
             </TextImageBlock>
         </SectionWrapper >
 
