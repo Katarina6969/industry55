@@ -12,7 +12,7 @@ export function ContactForm({ dark }) {
                 <p>
                     Kontaktujte nás prostřednictvím níže uvedeného kontaktního
                     formuláře. Těšíme se na vaši zprávu a na to, že vám budeme moci
-                    pomoci s Vaším projektem.
+                    pomoct s Vaším projektem.
                 </p>
             </TextImageBlock>
         </SectionWrapper >
