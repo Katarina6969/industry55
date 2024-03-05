@@ -1,8 +1,11 @@
-import React from 'react'
+"use client"
+import { sendMail } from "@/server/Actions"
 
 function Form(props) {
+
+
     return (
-        <form action="#" className="space-y-8">
+        <form action={sendMail} className="space-y-8">
             <div>
                 <label
                     htmlFor="email"
