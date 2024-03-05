@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.indutry.cz
+
+# Sitemaps
+Sitemap: https://www.indutry.cz/sitemap.xml
