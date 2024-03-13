@@ -14,7 +14,7 @@ export function Map({ dark }) {
                 <hr />
                 <p>Datová schránka : inebwtd</p>
                 <hr />
-                <p className="pb-28">Email : Industry55.th@gmail.com</p>
+                <p className="pb-28">Email : Industry.55th@gmail.com</p>
             </TextImageBlock>
         </SectionWrapper >
 

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.indutry.cz
+Host: https://indutry.cz
 
 # Sitemaps
-Sitemap: https://www.indutry.cz/sitemap.xml
+Sitemap: https://indutry.cz/sitemap.xml
