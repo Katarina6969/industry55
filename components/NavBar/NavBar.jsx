@@ -18,7 +18,7 @@ function NavBar(props) {
     return (
         <nav className="absolute top-0 w-full bg-transparent border-gray-200 z-10 text-white">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="https://industry55.cz/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <MenuLogo />
 
                 </a>
